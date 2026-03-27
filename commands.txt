@@ -1,0 +1,509 @@
+   12  pwd
+   13  touch README.md
+   14  ls
+   15  rm README.md
+   16  echo 423432432
+   17  echo "Hello"
+   18  echo "Dodajem nešto2 > README.md
+   19  ls
+   20  open .
+   21  stop
+   22  clear
+   23  ~clear
+   24  pwd
+   25  /s
+   26  cd !
+   27  cd ~
+   28  ls
+   29  cd documents
+   30  ls
+   31  ls -la
+   32  git clone 
+   33  clear
+   34  pwd
+   35  ls
+   36  pwd
+   37  celar
+   38  clear
+   39  git add README.md
+   40  celar
+   41  clear
+   42  git status
+   43  celar
+   44  clear
+   45  git logž
+   46  git log
+   47  rm test
+   48  clear
+   49  cd ..
+   50  ls
+   51  pwd
+   52  mkdir novi_projekt
+   53  cd novi_projekt
+   54  ls
+   55  clear
+   56  ls
+   57  touch datoteka1.txt
+   58  git add datoteka1.txt
+   59  pwd
+   60  mkdir projekt.txt
+   61  y
+   62  clear
+   63  pwd
+   64  clea
+   65  clear
+   66  cd ~
+   67  ls
+   68  cd desktop
+   69  touch blabla.txt
+   70  ls
+   71  ls -a
+   72  ls -A
+   73  rm blabla.txt
+   74  ls
+   75  clear
+   76  mkdir
+   77  clear
+   78  pwd
+   79  clear
+   80  ls
+   81  cd
+   82  pwd
+   83  ls
+   84  cd ~
+   85  clear
+   86  pwd
+   87  ls
+   88  ls -a
+   89  clear
+   90  git clone https://github.com/DavidKalcic/os_vjezbe
+   91  cd os_vjezbe
+   92  mkdir vjezbe2
+   93  cd vjezbe2
+   94  echo "Vjezbe2" > README.md
+   95  git add .
+   96  git commit -m "Rijesen zadatak 1"
+   97  git config --global user.email "dkalcic@student.unipu.hr"
+   98  git commit -m "Rijesen zadatak 1"
+   99  git push origin main
+  100  history > vjezba_2_history.txt
+  101  git add vjezba_2_history.txt
+  102  git commit -m "Dodan history za vjezbu2"
+  103  git push
+  104  cd vjezbe2
+  105  mkdir vjezba_2/data
+  106  ls
+  107  ls a
+  108  ls -a
+  109  clear
+  110  cd os_vjezbe
+  111  cd ..
+  112  cd os_vjezbe
+  113  cd ..
+  114  cd os_vjezbe
+  115  mkdir vjezba_2/data
+  116  cd ..
+  117  cd vjezbe2
+  118  ls
+  119  cd os_vjezbe
+  120  ls -a
+  121  cd vjezbe2
+  122  mkdir vjezbe2/data
+  123  cd .
+  124  cd ..
+  125  clear
+  126  mkdir vjezba_2
+  127  ls -a
+  128  mkdir vjezba_2/data
+  129  mkdir vjezba_2/backup
+  130  cd vjezba_2/data
+  131  touch script.js
+  132  touch style.css
+  133  touch .env
+  134  echo console.log("Hello, World!")
+  135  echo console.log("Hello, World!") > script.js
+  136  echo 'console.log("Hello, World!")' > script.js
+  137  echo 'body { background-color: #f0f0f0; }' > style.css
+  138  echo 'VJEZBE=OS' > .env
+  139  git add .
+  140  git commit -m "Rijesen zadatak 2"
+  141  git push
+  142  clear
+  143  cp -av data/ . backup/
+  144  clear
+  145  cd os_vjezbe
+  146  cd ..
+  147  cd ..
+  148  mkdir vjezba_2/backup
+  149  cd ..
+  150  ls
+  151  cd os_vjezbe
+  152  ls
+  153  ls -A
+  154  cd vjezba_2/data
+  155  cd ..
+  156  cd vjezba_2/backup
+  157  mkdir vjezba_2/backup
+  158  cd ..
+  159  mkdir vjezba_2/backup
+  160  cp -av data/. backup/
+  161  clear
+  162  cp -av vjezba_2/data. vjezba_2/backup
+  163  cd vjezba_2/data
+  164  cp -av vjezba_2/data. vjezba_2/backup
+  165  cp -av vjezba_2/data. vjezba_2/backup
+  166  cp -av vjezba_2/data/. vjezba_2/backup
+  167  cp -av vjezba_2/data /. vjezba_2/backup
+  168  rmdir vjezba_2/backup
+  169  cd ..
+  170  cd..
+  171  cd ..
+  172  cd ..
+  173  rmdir vjezba_2/backup
+  174  cd vjezba_2/backup
+  175  cd os_vjezbe
+  176  ls
+  177  mkdir vjezba_2/backup
+  178  rm vjezba_2/backup
+  179  rmdir vjezba_2/backup
+  180  clear
+  181  mkdir vjezba_2/backup
+  182  ls
+  183  ls /a
+  184  ls -a
+  185  cp -av vjezba_2/data /. vjezba_2/backup
+  186  clear
+  187  cd vjezba_2/data
+  188  cp -av vjezba_2/data /. vjezba_2/backup
+  189  cp -av vjezba_2/data /. vjezba_2/backup /
+  190  cp -av vjezba_2/data/. vjezba_2/backup/
+  191  cp -av vjezba_2/data /. vjezba_2/backup/
+  192  cp -av vjezba_2/data /. vjezba_2/backup
+  193  cd vjezba_2/backup
+  194  cd ..ž
+  195  cd ..
+  196  cd ..
+  197  cd vjezba_2/backup
+  198  cd ..
+  199  cp -av vjezba_2/data /. vjezba_2/backup
+  200  cd ..
+  201  ls -l
+  202  ls -d
+  203  clear
+  204  file vjezba_2/backup
+  205  cp -av vjezba_2/data /. vjezba_2/backup
+  206  clear
+  207  cd vjezba_2/backup
+  208  cd ..
+  209  git add .
+  210  git commit -m "Backup"
+  211  git push
+  212  git log
+  213  clear
+  214  cd ..
+  215  cd ..
+  216  cd ..
+  217  cd [200~C:\Users\David\Desktop\FIPU\Programiranje~
+  218  cd C:\Users\David\Desktop\FIPU\Programiranje
+  219  cd ..
+  220  cd..
+  221  cd ..
+  222  cd ..
+  223  cd C:\Users\David\Desktop\FIPU\Programiranje
+  224  cd Users\David\Desktop\FIPU\Programiranje
+  225  cd c
+  226  cd Users
+  227  cd David/Desktop/FIPU/Programiranje
+  228  ls -las
+  229  ls -ls
+  230  tree -a
+  231  choco install tree
+  232  sudo apt install tree -y
+  233  file .
+  234  sudo apt install tree -y
+  235  sudo apt install tree
+  236  sudo dnf install tree
+  237  tree -a
+  238  sudo dnf install tree -y
+  239  clear
+  240  cd chocolatey
+  241  cd ..
+  242  cd ..
+  243  cd ..
+  244  cd ..
+  245  cd ..
+  246  cd ProgramData
+  247  cd chocolatey
+  248  rm chocolatey
+  249  rmdir chocolatey
+  250  ls
+  251  ls
+  252  ls -A
+  253  cd ..
+  254  ls -A
+  255  cd chocolatey
+  256  rm chocolatey
+  257  cd ..
+  258  rm chocolatey
+  259  rmdir chocolatey
+  260  clear
+  261  cd ..
+  262  cd Users/David/FIPU/Programiranje
+  263  cd Users/David/Desktop/FIPU/Programiranje
+  264  ls -las
+  265  ls -ls
+  266  tree -a
+  267  tree /F /A
+  268   export PATH=$PATH:/c/ProgramData/chocolatey/bin
+  269  tree -a
+  270  git clone https://github.com/DavidKalcic/os_vjezbe.git
+  271  cd os_vjezbe
+  272  pwd
+  273  mkdir OS_Zadaca_2
+  274  ls
+  275  mv vjezba_2 OS_Zadaca_2
+  276  mv vjezbe2 OS_Zadaca_2
+  277  pwd
+  278  cd OS_Zadaca_2
+  279  ls
+  280  mv vjezba_2 OS_Zadaca_2
+  281  cd ..
+  282  mv vjezba_2 OS_Zadaca_2
+  283  mv vjezba_2/data OS_Zadaca_2
+  284  pwd
+  285  ls -a
+  286  git push
+  287  git status
+  288  git add OS_Zadaca_2
+  289  git commit -m "Dodavanje Zadace_2"
+  290  git push origin main
+  291  cd OS_Zadaca_2
+  292  mkdir vjezba_2/backup
+  293  pwd
+  294  mkdir backup
+  295  pwd
+  296  ls
+  297  cp -a data /. backup
+  298  cp -av data/. backup
+  299  cd data
+  300  ls -lsa ../backup
+  301  git commit -m "Rjesavanje Zadace 2"
+  302  git status
+  303  git add .
+  304  git commit -m "Rjesavanje Zadace 2"
+  305  git push origin main
+  306  pwd
+  307  cd backup
+  308  cd ..
+  309  git add backup
+  310  clear
+  311  pwd
+  312  git add vjezba_2/backup
+  313  git add OS_Zadaca_2/backup
+  314  git add backup
+  315  ls
+  316  cd backup
+  317  ls -A
+  318  git commit -m "Rjesavanje Zadace 2"
+  319  git push origin main
+  320  pwd
+  321  ls
+  322  cd ..
+  323  ls -a
+  324  cd backup
+  325  ls -A
+  326  git add .
+  327  git commit -m "Rjesavaje Zadace 2"
+  328  git push
+  329  git add backup
+  330  cd ..
+  331  git add backup
+  332  git commit -m "Rjesavanje Zadace 2"
+  333  git add backup
+  334  pwd
+  335  cd backup
+  336  git push
+  337  clear
+  338  cd ..
+  339  cd backup
+  340  ls -a
+  341  git add backup
+  342  cd ..
+  343  git add backup
+  344  git commit -am "Rjesavanje Zadace 2"
+  345  git push origin main
+  346  clear
+  347  pwd
+  348  ls
+  349  cd backup
+  350  git add backup
+  351  cd ..
+  352  git add backup
+  353  cd backup
+  354  ls
+  355  git add .
+  356  git log
+  357  git show
+  358  git push
+  359  cd ..
+  360  rmdir backup
+  361  rmdir -rf backup
+  362  rm -rf backup
+  363  ls
+  364  git add backup
+  365  ls
+  366  mkdir backup
+  367  cd backup
+  368  ls
+  369  cp -av data/. backup/
+  370  cd ..
+  371  čs
+  372  ls
+  373  cp -av data/. backup
+  374  cd backup
+  375  ls
+  376  ls -A
+  377  cd ..
+  378  git add .
+  379  git commit -am "Rjesavanje Zadace 2"
+  380  git push
+  381  git status
+  382  pwd
+  383  ls
+  384  pwd ls
+  385  pwd
+  386  ls
+  387  pwd
+  388  cd Desktop
+  389  mkdir ~/fipu/2_semestar
+  390  mkdir ~/fipu/2_semstar
+  391  mkdir fipu/2_semestar
+  392  ls
+  393  ls -a
+  394  cd 2_semestar
+  395  cd fipu/2_semestar
+  396  touch OS.md GLA.txt MA.txt BP1.docx IS.txt PSJ.md
+  397  ls -a
+  398  pwd
+  399  mkdir fipu/prva
+  400  mkdir prva
+  401  ls
+  402  cd fipu/2_semestar
+  403  cp fipu/2_semestar prva
+  404  cd ..
+  405  cp 2_semestar prva
+  406  cp -r fipu/2_semestar prva
+  407  cp - r 2_semestar prva
+  408  cd prva
+  409  ls
+  410  cd ..
+  411  ls
+  412  cd fipu
+  413  ls -a
+  414  mkdir prva
+  415  ls
+  416  cp -r 2_semestar prva
+  417  cd prva
+  418  ls -a
+  419  cd ..
+  420  cd 2_semestar
+  421  ls -a --color
+  422  cd prva
+  423  mkdir polozeno
+  424  mkdir .salabahteri
+  425  touch salabahter_os.txt "Ovo je salabahter iz kolegija OS."
+  426  cd polozeno
+  427  rm -ari
+  428  rm -ri
+  429  rm --help
+  430  rm -i
+  431  ls -a
+  432  cd prva
+  433  cd ..
+  434  cp -r *2_semestar polozeno
+  435  cp -r 2_semestar * polozeno
+  436  cp - r * 2_semestar polozeno
+  437  cd ..
+  438  cd ..
+  439  cp -r * 2_semestar polozeno
+  440  ls -a
+  441  mkdir polozeno
+  442  cp -r * 2_semestar polozeno
+  443  cp -r 2_semestar polozeno
+  444  cd polozeno
+  445  rm -i
+  446  rm --help
+  447  rm -ri .
+  448  rm -ri ..
+  449  rm -ri ./
+  450  clear
+  451  ~
+  452  echo $0
+  453  pwd
+  454  ls
+  455  clear
+  456  cd /
+  457  pwd
+  458  cd home
+  459  cd ~
+  460  pwd
+  461  clear
+  462  git clone https://github.com/DavidKalcic/os2-vjezba-node.git
+  463  cd os2-vjezbe-node
+  464  cd os2-vjezba-node
+  465  echo 'console.log("Hello, Luka!");' > index.js
+  466  git add .
+  467  git commit -m "Dodana index.js datoteka"
+  468  git push
+  469  git log
+  470  git clone https://github.com/ljuric2-byte/os2-vjezba-node.git
+  471  cd os2-vjezba-node
+  472  ls
+  473  echo 'console.log("Hello, RUS!");' > index.js
+  474  cat -n index.js
+  475  git add .
+  476  git commit -m "Promijena index.js datoteka"
+  477  git push
+  478  node -v
+  479  git log
+  480  node -v
+  481  npm -v
+  482  cd os2-vjezba-node
+  483  npm init
+  484  cat package.json
+  485  node index.js
+  486  git add package.json
+  487  git commit -m "Dodana package.json datoteka"
+  488  git pushž
+  489  git psuh
+  490  git push
+  491  npm install
+  492  index.js
+  493  node index.js
+  494  git pull
+  495  node index.js
+  496  echo 'for (let i = 0; i < 100; i++) { if (i % 2 ===) { console.log("David"); }else { console.log("Luka");}} > index.js
+
+
+
+
+
+
+
+
+
+  497  [200~echo 'for (let i = 0; i < 100; i++) { if (i % 2 ===) { console.log("David"); }else { console.log("Luka");}} > index.js
+  498  echo 'for (let i = 0; i < 100; i++) { if (i % 2 ===) { console.log("David"); }else { console.log("Luka");}}' > index.js
+  499  node index.js
+  500  echo 'for (let i = 0; i < 100; i++) { if (i % 2 === 0) { console.log("David"); }else { console.log("Luka");}}' > index.js
+  501  node index.js
+  502  git add index.js
+  503  git commit -m "Promijena index.js datoteka na GitHub-u"
+  504  git push
+  505  git log
+  506  pwd
+  507  ls
+  508  cd ..
+  509  ls
+  510  cd os2-vjezba-node
+  511  history > commands.txt
